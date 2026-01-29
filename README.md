@@ -23,8 +23,7 @@ Voici la "partition" que chaque module doit suivre. Les `...` dans les topics do
 
 | Responsable | Action | Topic MQTT | Format du Message (JSON) |
 | :--- | :--- | :--- | :--- |
-| **P1** | Publie | `.../parking/spots/{id}/status` | `{"id": "A01", "status": "FREE", "distance_cm": 32.4, "threshold_cm": 50.0, "debounce_n": 4, 
-"ts": "2026-01-29T18:25:30"}`  |
+| **P1** | Publie | `.../parking/spots/{id}/status` | `{"id": "A01", "status": "FREE", "distance_cm": 32.4, "threshold_cm": 50.0, "debounce_n": 4,"ts": "2026-01-29T18:25:30"}`  |
 | **P2** | S'abonne | `.../parking/spots/+/status` | *(Détection d'arrivée de véhicule)*  |
 | **P2** | S'abonne | `.../parking/display/available` | *(Vérification des places libres)*  |
 | **P2** | Publie | `.../parking/barriers/entry/cmd` | `{"action": "OPEN"}`  |
