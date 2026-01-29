@@ -27,7 +27,7 @@ Ce module constitue la **source de vérité** pour l’occupation des places.
 Nombre de places : **20**
 
 Identifiants :
-P01, P02, P03, … , P20
+A01, A02, A03, … , A20
 
 
 Chaque place fonctionne de manière indépendante.
@@ -77,7 +77,7 @@ smart_parking_2026/parking/spots/{id}/status
 
 
 Exemple :
-smart_parking_2026/parking/spots/P06/status
+smart_parking_2026/parking/spots/A06/status
 
 
 ---
@@ -86,7 +86,7 @@ smart_parking_2026/parking/spots/P06/status
 
 ```json
 {
-  "id": "P06",
+  "id": "A06",
   "status": "OCCUPIED",
   "distance_cm": 19.8,
   "threshold_cm": 50.0,

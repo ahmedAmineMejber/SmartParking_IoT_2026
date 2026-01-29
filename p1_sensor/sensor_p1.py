@@ -7,7 +7,7 @@ import paho.mqtt.client as mqtt
 BROKER_HOST = "broker.emqx.io" # public MQTT broker for testing "127.0.0.1 <- localhost for testing "
 BROKER_PORT = 1883 # default MQTT port
 
-SPOTS = [f"P{i:02d}" for i in range(1, 21)] # P01 to P20
+SPOTS = [f"A{i:02d}" for i in range(1, 21)] # A01 to A20
 
 THRESHOLD_CM = 50.0 # distance below which a spot is considered occupied
 READ_INTERVAL_S = 1.0
